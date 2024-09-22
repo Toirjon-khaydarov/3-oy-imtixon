@@ -16,14 +16,14 @@
   <body>
     <header>
       <nav>
-        <div class="container flex-row justify-between pt-[56px]">
-          <div class="burger-menu flex tablet:hidden">
+        <div class="container flex-row justify-between pt-[56px] ">
+          <div class="burger-menu flex tablet:hidden border border-black hover:border-blue-500 transition duration-1000">
             <span></span>
             <span></span>
             <span></span>
           </div>
           <div>
-            <ul class="list default: hidden">
+            <ul class="list default: hidden border border-black hover:border-blue-500 transition duration-1000">
               <li class="under">
                 <span>Home</span>
               </li>
@@ -42,17 +42,17 @@
             </ul>
           </div>
           <div
-            class="flex ustify-center items-center tablet:w-[120px] tablet:h-[46px] j"
+            class="flex ustify-center items-center tablet:w-[120px] tablet:h-[46px] border border-black hover:border-blue-500 transition duration-600"
           >
-            <span class="text-[#3DDEED] font-semibold"
+            <span class="text-[#3DDEED] font-semibold pl-3"
               >Holo
               <span class="text-[#fff] font-semibold">Gaze</span>
               .</span
             >
           </div>
-          <div class="flex justify-between gap-[32px] items-center">
+          <div class="flex justify-between gap-[32px] items-center ">
             <div
-              class="hidden tablet:flex justify-between gap-3 items-center bg-[#220b3b69] w-[350px] h-[46px] pr-2"
+              class="hidden tablet:flex justify-between gap-3 items-center bg-[#220b3b69] w-[350px] h-[46px] pr-2 border border-black hover:border-blue-500 transition duration-1000"
             >
               <input
                 class="ml-5 bg-[#220b3b69]"
@@ -63,7 +63,7 @@
                 ><img src="./images/search icon for nav.png" alt=""
               /></span>
             </div>
-            <span> <img src="./images/shopping-bag for nav.png" alt="" /></span>
+            <span class="border border-black hover:border-blue-500 transition duration-200"> <img src="./images/shopping-bag for nav.png" alt="" /></span>
           </div>
         </div>
       </nav>
@@ -72,9 +72,9 @@
     <main>
       <section class="experiance">
         <div
-          class="container flex flex-col tablet:flex-row justify-between pt-[90px]"
+          class="container flex flex-col tablet:flex-row justify-between pt-[90px] "
         >
-          <div class="flex-col justify-center pt-[90px]">
+          <div class="flex-col justify-center pt-[90px] border border-black hover:border-blue-500 transition duration-1000">
             <div class="w-[100%]">
               <p
                 class="text-[#FFFFFFCC] tracking-wider font-medium uppercase pb-[32px]"
@@ -82,9 +82,15 @@
                 Virtual Headsets
               </p>
               <h1 class="text-[80px] font-bold text-[#FFFFFF]">
-                Experience a <br />new dimension <br />
+                Experience a   <hr
+                class="experiance__foto__underline border-none h-[4px] "
+              />new dimension   <hr
+              class="experiance__foto__underline border-none h-[4px] "
+            />
                 of reality
-              </h1>
+                <hr
+                class="experiance__foto__underline border-none h-[4px] w-[60%] "
+            /></h1>
               <div class="flex justify-start items-center pt-[40px] gap-3">
                 <span
                   ><img src="./images/Star for position style.svg" alt=""
@@ -96,7 +102,7 @@
                 </p>
               </div>
               <div
-                class="default:flex-col justify-center tablet:flex flex-row items-center gap-[24px]"
+                class="default:flex-col justify-start tablet:flex flex-row items-center gap-[24px]"
               >
                 <button class="btn flex flex-row items-center gap-[24px]">
                   <span>Visit Sttore</span>
@@ -120,7 +126,7 @@
               >
                 FOLLOW US
               </p>
-              <div class="flex justify-start mt-[12px] items-center gap-3">
+              <div class="flex justify-start mt-[12px] -scale-x-90 items-center gap-3 transform transition duration-500 hover:scale-x-90 hover:opacity-80">
                 <span class="sotcial__icons"
                   ><i class="fa-brands fa-twitter" style="color: #fafbf3"></i
                 ></span>
@@ -154,11 +160,11 @@
               class="flex flex-col tablet:flex-row gap-[32px] tablet:justify-center pt-[32px]"
             >
               <span class="flex justify-center items-center"
-                ><img src="./images/hero under foto icon1.png" alt="" />
+                ><img class="transform transition duration-500 hover:scale-110 hover:opacity-80" src="./images/hero under foto icon1.png" alt="" />
                 <p class="text-[white]">Enhanced Education</p></span
               >
               <span class="flex justify-center items-center"
-                ><img src="./images/hero under foto icon1.png" alt="" />
+                ><img class="transform transition duration-500 hover:scale-110 hover:opacity-80" src="./images/hero under foto icon1.png" alt="" />
                 <p class="text-[white]">Enhanced Education</p></span
               >
             </div>
@@ -173,7 +179,7 @@
           <div class="headset__foto pt-[30px] tablet:mt-[164px] border border-black hover:border-blue-500 transition duration-300">
             <img class="w-[100%]" src="./images/headset-foto.png" alt="" />
           </div>
-          <div class="headset__text">
+          <div class="headset__text border  border-black hover:border-blue-600 transition duration-1000">
             <h3
               class="font-bold text-[#ffffff] text-[56px] pt-[30px] tablet:pt-[164px]"
             >
@@ -278,59 +284,59 @@
               /></span>
             </div>
             <div class="justify-center items-center">
-              <p class="text-[24px] text-white font-medium pl-[200px]">
+              <p class="text-[24px] text-white font-medium pl-[200px] mb-[30px]">
                 +258K Views
               </p>
             </div>
           </div>
-          <div class="creato__foto border-2 border-inherit hover:border-blue-500 transition duration-300">
+          <div class="creato__foto rounded-lg border border-black hover:border-blue-500 transition duration-300">
             <span
               ><img class="w-[100%]" src="./images/creator-foto.png" alt=""
             /></span>
           </div>
           <div
-            class="tablet:hidden desktop:flex tablet:absolute w-[414px] h-[282px] bg-white border-gray-200 left-[40%] top-[60%]"
+            class="tablet:hidden desktop:flex tablet:absolute  w-[414px] h-[282px] bg-white left-[45%] top-[60%] rounded-lg border border-white hover:border-blue-600 transition duration-300"
           >
-            <div class="flex justify-start items-center ">
-              <img
-                class="pt-[14px] pl-[20px]"
-                src="./images/creator-positio-foto.png"
-                alt=""
-              /><span
-                ><p
-                  class="text-black font-semibold tracking-tight pl-[16px] pt-[22px]"
-                >
-                  Jane Wilson
-                </p>
-                <p class="text-black pl-[16px]">@jjwilson</p></span
+          <div class="flex justify-start items-center ">
+            <img
+              class="pt-[14px] pl-[20px]"
+              src="./images/creator-positio-foto.png"
+              alt=""
+            /><span
+              ><p
+                class="text-black font-semibold tracking-tight pl-[16px] pt-[22px]"
               >
-            </div>
-            <p
-              class="leading-8 text-[#141619] text-[22] pl-[20px] font-light py-[30px]"
+                Jane Wilson
+              </p>
+              <p class="text-black pl-[16px]">@jjwilson</p></span
             >
-              Virtual headsets of the future is live!
-            </p>
-            <p class="text-[#141619] text-[22] pl-[20px] py-[16px]">
-              09:28 · 2/21/20 · <a class="text-t" href="https://x.com/?lang=ru"><span class="text-[#4949f4]">Twitter Web App</span></a>
-            </p>
-            <hr class="experiance__foto__underline border-none h-[4px] bg-gradient-to-r from-cyan-500 to-blue-500 to">
-            <p >
-              <span class="pl-[20px] text-black font-semibold">24,5k
-              </span> Retweets <span class="font-semibold"> 104,21k 
-              </span> Likes
-            </span>
+          </div>
+          <p
+            class="leading-8 text-[#141619] text-[22] pl-[20px] font-light py-[30px]"
+          >
+            Virtual headsets of the future is live!
+          </p>
+          <p class="text-[#141619] text-[22] pl-[20px] py-[16px]">
+            09:28 · 2/21/20 · <a class="text-t" href="https://x.com/?lang=ru"><span class="text-[#4949f4]">Twitter Web App</span></a>
           </p>
           <hr class="experiance__foto__underline border-none h-[4px] bg-gradient-to-r from-cyan-500 to-blue-500 to">
-          <div class="flex justify-center items-center gap-16 pt-2 cursor-pointer">
-            <img src="./images/creator positions-icon1.svg" alt="">
-            <img src="./images/creator positions-icon2.svg" alt="">
-            <img src="./images/creator positions-icon3.svg" alt="">
-            <img src="./images/creator positions-icon4.svg" alt="">
-          </div>
+          <p >
+            <span class="pl-[20px] text-black font-semibold">24,5k
+            </span> Retweets <span class="font-semibold"> 104,21k 
+            </span> Likes
+          </span>
+        </p>
+        <hr class="experiance__foto__underline border-none h-[4px] bg-gradient-to-r from-cyan-500 to-blue-500 to">
+        <div class="flex justify-center items-center gap-16 pt-2 cursor-pointer">
+          <img src="./images/creator positions-icon1.svg" alt="">
+          <img src="./images/creator positions-icon2.svg" alt="">
+          <img src="./images/creator positions-icon3.svg" alt="">
+          <img src="./images/creator positions-icon4.svg" alt="">
         </div>
-        </div>
-      </section>
-
+      </div>
+      </div>
+    </section>
+    
       <section class="afisha">
         <div class="container flex flex-col justify-center items-center pt-[100px]">
           <h3 class="text-[#ffffff] font-bold text-[38px] tablet:hidden">Top Games</h3>
@@ -338,12 +344,12 @@
           <p class="text-[#ffffff] pt-3 ">If you buy video 2 games, you will receive 
             <br> 1 video game for free, along with a <span class="text-blue-600">50%</span> discount.</p>
           <div class="hidden tablet:flex flex-row items-center gap-[12px] cursor-pointer mb-[40px]">
-            <img class="p-[16px] 	bg-[#1f0646] mx-auto" src="./images/afisha-arrow_icon.svg" alt=""></span>
-            <img class="p-[16px]  	bg-[#1f0646] mx-auto" src="./images/afisha-arrow_icon1.svg" alt=""></span>
+            <img class="p-[16px] 	bg-[#1f0646] border-2 border-black hover:border-blue-500 transition duration-300 mx-auto" src="./images/afisha-arrow_icon.svg" alt=""></span>
+            <img class="p-[16px]  	bg-[#1f0646] border-2 border-black hover:border-blue-500 transition duration-300 mx-auto" src="./images/afisha-arrow_icon1.svg" alt=""></span>
           </div>
         </div>
         </div>
-        <div class="container flex flex-row overflow-x-auto overflow-y-hidden whitespace-nowrap">
+        <div class="container flex flex-row overflow-x-auto overflow-y-hidden whitespace-nowrap cursor-pointer">
           <div class="afisha__card"><img src="./images/afisha-img1.png" alt=""></div>
           <div class="afisha__card"><img src="./images/afisha-img2.png" alt=""></div>
           <div class="afisha__card"><img src="./images/afisha-img3.png" alt=""></div>
@@ -359,7 +365,7 @@
 <div class="container flex flex-col ">
   <div class="bg-inherit w-[70%] justify-center items-center m-auto pt-10">
     <ul class=" text-white  p-6 ">
-      <li class="flex justify-between items-start faq__item cursor-pointer m-6 p-6 bg-[#2f2d2feb]">
+      <li class="flex justify-between items-start faq__item cursor-pointer m-6 p-6 bg-[#2f2d2feb] rounded-lg border border-black hover:border-blue-500 transition duration-1000">
         <div class="flex gap-[32px]">
           <div class="flex flex-col gap-[3px] itemee">
             <p class="texy-[24px] font-bold">What are the different types of virtual headsets available?</p>
@@ -370,7 +376,7 @@
           <img class="faq__toogle" src="./images/Vector.svg" alt="">
         </button>
       </li>
-      <li class="flex justify-between items-start faq__item cursor-pointer m-6 p-6 bg-[#2f2d2feb]">
+      <li class="flex justify-between items-start faq__item cursor-pointer m-6 p-6 bg-[#2f2d2feb] rounded-lg border border-black hover:border-blue-500 transition duration-1000">
         <div class="flex gap-[32px]">
           <div class="flex flex-col gap-[3px] itemee">
             <p class="texy-[24px] font-bold">What are the different types of virtual headsets available?</p>
@@ -381,10 +387,10 @@
           <img class="faq__toogle" src="./images/Vector.svg" alt="">
         </button>
       </li>
-      <li class="flex justify-between items-start faq__item cursor-pointer m-6 p-6 bg-[#2f2d2feb]">
+      <li class="flex justify-between items-start faq__item cursor-pointer m-6 p-6 bg-[#2f2d2feb] rounded-lg border border-black hover:border-blue-500 transition duration-1000">
         <div class="flex gap-[32px]">
           <div class="flex flex-col gap-[3px] itemee">
-            <p class="texy-[24px] font-bold">What are the different types of virtual headsets available?</p>
+            <p class="texy-[24px] font-bold">Do I need a powerful computer to use a virtual headset?</p>
             <p class="hidden faq__answer">Virtual headsets are equipped with various sensors to track the user's movements. These sensors can include accelerometers, gyroscopes, and sometimes external cameras or base stations. They constantly monitor the position and orientation of the headset and sometimes the user's hand controllers.</p>
           </div>
         </div>
@@ -392,10 +398,10 @@
           <img class="faq__toogle" src="./images/Vector.svg" alt="">
         </button>
       </li>
-      <li class="flex justify-between items-start faq__item cursor-pointer m-6 p-6 bg-[#2f2d2feb]">
+      <li class="flex justify-between items-start faq__item cursor-pointer m-6 p-6 bg-[#2f2d2feb] rounded-lg border border-black hover:border-blue-500 transition duration-1000">
         <div class="flex gap-[32px]">
           <div class="flex flex-col gap-[3px] itemee">
-            <p class="texy-[24px] font-bold">What are the different types of virtual headsets available?</p>
+            <p class="texy-[24px] font-bold">What are the main applications of virtual headsets?</p>
             <p class="hidden faq__answer">Virtual headsets are equipped with various sensors to track the user's movements. These sensors can include accelerometers, gyroscopes, and sometimes external cameras or base stations. They constantly monitor the position and orientation of the headset and sometimes the user's hand controllers.</p>
           </div>
         </div>
@@ -407,86 +413,83 @@
   </div>
  </div>
 </section>
-    
 </main>
 
 <footer>
-  <section>
-        <div class="flex justify-around items-center  ">
-          <div class="justify-senter items-center gap-[12px]">
-            <span class="text-[#3DDEED] font-semibold"
-              >Holo
-              <span class="text-[#fff] font-semibold">Gaze</span>
-              .</span>
-          </div>
-          <div class="pt-[30px]">
-          <span class="sotcial__icons"
-            ><i class="fa-brands fa-twitter" style="color: #fafbf3"></i
-          ></span>
-          <span class="sotcial__icons"
-             ><i class="fa-brands fa-instagram" style="color: #ffffff"></i
-          ></span>
-          <span class="sotcial__icons"
-            ><i class="fa-brands fa-discord" style="color: #ffffff"></i
-          ></span>
-          <span class="sotcial__icons"
-            ><i class="fa-brands fa-facebook" style="color: #ffffff"></i
-          ></span>
-        </div>
-        <p class="text-start text-white pt-[30px]">(+994) 199-28-786</p>
-        </div>
-          <div class="container footer__info tablet:grid-rows-3 gap-[30px]">
-          <div>
-              <ul class="flex flex-col text-white gap-[16px]">
-                <li class="font-bold text-[18px]">
-                  <span>Menu</span>
-                </li>
-                <li>
-                  <span>Catalog</span>
-                </li>
-                <li>
-                  <span>Contact</span>
-                </li>
-                <li>
-                  <span>Features</span>
-                </li>
-                <li>
-                  <span>Contact</span>
-                </li>
-              </ul>
-          </div>
-          <div class="gap-[16px]">
-            <ul class="flex flex-col text-[#ffffff80] gap-[16px]">
-              <li class="font-bold text-[18px]">
-                <span>Company</span>
-              </li>
-              <li>
-                <span>Login</span>
-              </li>
-              <li>
-                <span>Sign Up</span>
-              </li>
-              <li>
-                <span>Privacy</span>
-              </li>
-              <li>
-                <span>Products</span>
-              </li>
-            </ul>
-        </div>
-          <div>
-            <p class="font-bold text-[18px] text-[#ffffff]">Subscribe Our News Letter</p>
-            <p class="text-[#ffffff80]">Sure, please provide your email address 
-            to subscribe to newsletter</p>
-            <div class="justify-center items-center">
-            <input class="border border-indigo-50		bg-inherit" type="text" name="" id=""><button class="btn"></button></div>
-          </div>
-        </div>
+	<section>
+    <div >
+<div class="container justify-center items-center">
+		<div class="footer__info pt-[80px] mb-[100px] pb-[60px] ">
+			<div class="flex flex-col items-center  justify-center">
+				<span class="text-[#3DDEED] font-semibold mr-[120px]">
+					Holo
+					<span class="text-[#fff] font-semibold">Gaze</span>
+					.
+				</span>
+				<div class="flex justify-start mt-[32px] items-center gap-3">
+					<span class="sotcial__icons"><i class="fa-brands fa-twitter" style="color: #fafbf3"></i></span>
+					<span class="sotcial__icons"><i class="fa-brands fa-instagram" style="color: #ffffff"></i></span>
+					<span class="sotcial__icons"><i class="fa-brands fa-discord" style="color: #ffffff"></i></span>
+					<span class="sotcial__icons"><i class="fa-brands fa-facebook" style="color: #ffffff"></i></span>
+				</div>
+        <p class="text-start text-white pt-[30px] mr-[80px]">(+994) 199-28-786</p>
+			</div>
+			<div class="flex flex-row gap-[60px] justify-center text-center">
+				<div class="flex flex-col justify-center text-center">
+					<ul class="flex flex-col text-[#ffffff80] gap-[16px]">
+						<li class="font-bold text-[18px] text-white">
+							<span>Menu</span>
+						</li>
+						<li>
+							<span>Catalog</span>
+						</li>
+						<li>
+							<span>Contact</span>
+						</li>
+						<li>
+							<span>Features</span>
+						</li>
+						<li>
+							<span>Contact</span>
+						</li>
+					</ul>
+				</div>
+				<div class="flex flex-col justify-center text-center">
+					<ul class="flex flex-col text-[#ffffff80] gap-[16px]">
+						<li class="font-bold text-[18px] text-white">
+							<span>Company</span>
+						</li>
+						<li>
+							<span>Login</span>
+						</li>
+						<li>
+							<span>Sign Up</span>
+						</li>
+						<li>
+							<span>Privacy</span>
+						</li>
+						<li>
+							<span>Products</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="text-[#ffffff80] ">
+          <p class="font-bold text-[18px] text-white">Subscribe Our News Letter</p>
+          <p class="mt-[24px]">Sure, please provide your email address to subscribe to 
+          <br> newsletter</p>
+			  <div class="footer__subscribe mt-[40px]">
+          <input type="email" placeholder="Enter your mail..." />
+          <button>Subscribe</button>
+			  </div>
+			</div>
     </div>
-    </div>
-  </section>
+</div>
+<hr class="fotter__underline mt-[40px] py-[2px]">
+<p class="text-center text-white">© 2023 Your Company Name. All rights reserved.</p>
+</div>
+	</section>
 </footer>
-
     <script type="module" src="./main.js"></script>
   </body>
 </html>
